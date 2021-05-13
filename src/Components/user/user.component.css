@@ -1,0 +1,14 @@
+.sending_button {
+  margin: 3px;
+  width: 60px;
+  height: 30px;
+  font-size: 13px;
+}
+
+.writing_area{
+    margin: 3px;
+}
+
+.text_container{
+    height:300px;
+}

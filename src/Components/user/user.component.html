@@ -1,0 +1,12 @@
+<div class="border border-5 text-center rounded">
+  <div>
+    <h1>{{name}}</h1>
+  </div>
+  <div>
+    <textarea [(ngModel)]="text_container" ngDefaultControl class="w-50 rounded text_container"></textarea>
+  </div>
+  <div>
+    <input #content [(ngModel)]="input_textbox" class="writing_area rounded align-baseline" placeholder="Write something" />
+    <button (click)="Send(content.value)" class="btn btn-primary sending_button align-baseline">Send</button>
+  </div>
+</div>
